@@ -1,0 +1,89 @@
+#wpcontent {
+    padding: 0;
+}
+@media screen and (max-width: 782px){
+    .auto-fold #wpcontent {
+        padding-left: 0;
+    }
+}
+.wrap{
+    margin: 0;
+}
+.contact-button-header{
+    padding: 30px 20px;
+    background-color: #18212f;
+    text-align: center;
+}
+
+.contact-button-header img{
+    max-width: 200px;
+}
+.contact-button-header span{
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+}
+.contact-button-content{
+    max-width: 800px;
+    display: block;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.contact-button-content p{
+    font-size: 15px;
+}
+.contact-button-section-1{
+    text-align:center;
+}
+.contact-button-section-1 a{
+    color: #00749C;
+}
+.contact-button-section-2{
+    padding: 20px;
+    background-color: #d8d8d8;
+}
+.contact-button-section-2, .contact-button-demo-img{
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+}
+.contact-button-demo-img{
+    max-width: 35%;
+    float: right;
+    border-radius: 5px;
+}
+.contact-button-section-3{
+    margin-top: 20px;
+}
+.contact-button-section-3 input[type=text]{
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 4px;
+    display: block;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.contact-button-section-3 label[for=contact-button-id]{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #18212f;
+}
+.contact-button-section-4 input{
+    background: #009FF4;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.contact-button-is-active{
+    background-color: #1EBD53;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+}
